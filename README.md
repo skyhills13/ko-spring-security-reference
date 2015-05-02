@@ -6,21 +6,21 @@
 
 ### 진행 
 
-I. Preface (완료)
-II. Getting Started
+1. Preface (완료)
+2. Getting Started
     1. Introduction ( histroy, release-numbering 제외 완료 )
     2. What’s new in Spring Security 4.0 ( 추후 예정 )
     3. Java Configuration
     4. Security Namespace Configuration
     5. Sample Applications
     6. Spring Security Community
-III. Architecture and Implementation
+3. Architecture and Implementation
     7. Technical Overview
     8. Core Services
-IV. Testing
+4. Testing
     9. Testing Method Security
     10. Spring MVC Test Integration
-V. Web Application Security
+5. Web Application Security
     11. The Security Filter Chain
     12. Core Security Filters
     13. Servlet API integration
@@ -31,10 +31,10 @@ V. Web Application Security
     18. Session Management
     19. Anonymous Authentication
     20. WebSocket Security
-VI. Authorization
+6. Authorization
     22. Secure Object Implementations
     23. Expression-Based Access Control
-VII. Additional Topics
+7. Additional Topics
     24. Domain Object Security (ACLs)
     25. Pre-Authentication Scenarios
     26. LDAP Authentication
@@ -46,14 +46,13 @@ VII. Additional Topics
     32. Spring Security Crypto Module
     33. Concurrency Support
     34. Spring MVC Integration
-VIII. Spring Data Integration
+8. Spring Data Integration
     35. Spring Data & Spring Security Configuration
     36. Security Expressions within @Query
-IX. Appendix
+9. Appendix
     37. Security Database Schema
     38. The Security Namespace
     39. Spring Security Dependencies
-
 
 
 ### 첨언

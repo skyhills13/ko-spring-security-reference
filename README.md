@@ -4,11 +4,13 @@
 * 원문 링크 http://docs.spring.io/spring-security/site/docs/4.0.1.RELEASE/reference/htmlsingle/
 * 옮긴이 박소은(skyhills13@gmail.com)
 
+===
+
 ### 진행 
 
-1. Preface (완료)
+1. <del>Preface</del>
 2. Getting Started
-    1. Introduction ( histroy, release-numbering 제외 완료 )
+    1. <del>Introduction</del> ( histroy, release-numbering 제외 )
     2. What’s new in Spring Security 4.0 ( 추후 예정 )
     3. Java Configuration
     4. Security Namespace Configuration
@@ -54,6 +56,7 @@
     38. The Security Namespace
     39. Spring Security Dependencies
 
+===
 
 ### 첨언
 

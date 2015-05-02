@@ -1,0 +1,289 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <title>1.&nbsp;&#46020;&#51077;</title><link rel="stylesheet" type="text/css" href="css/manual-multipage.css"><meta name="generator" content="DocBook XSL Stylesheets V1.78.1"><link rel="home" href="index.html" title="Spring Security &#47112;&#54140;&#47088;&#49828;"><link rel="up" href="getting-started.html" title="Part&nbsp;II.&nbsp;&#49884;&#51089;&#54616;&#44592;"><link rel="prev" href="getting-started.html" title="Part&nbsp;II.&nbsp;&#49884;&#51089;&#54616;&#44592;"><link rel="next" href="new.html" title="2.&nbsp;Spring Security 4.0&#51032; &#49352;&#47196;&#50868; &#51216;"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">1.&nbsp;&#46020;&#51077;</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="getting-started.html">Prev</a>&nbsp;</td><th width="60%" align="center">Part&nbsp;II.&nbsp;&#49884;&#51089;&#54616;&#44592;</th><td width="20%" align="right">&nbsp;<a accesskey="n" href="new.html">Next</a></td></tr></table><hr></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a name="introduction" href="#introduction"></a>1.&nbsp;&#46020;&#51077;</h2></div></div></div>
+
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="what-is-acegi-security" href="#what-is-acegi-security"></a>1.1&nbsp;Spring Security&#46976;?</h2></div></div></div>
+
+<p>Spring Security&#45716; Java EE &#44592;&#48152;&#51032; &#50644;&#53552;&#54532;&#46972;&#51060;&#51592; &#49548;&#54532;&#53944;&#50920;&#50612;&#47484; &#50948;&#54620; &#48372;&#50504; &#49436;&#48708;&#49828;&#47484; &#51228;&#44277;&#54620;&#45796;. &#50644;&#53552;&#54532;&#46972;&#51060;&#51592; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496; &#44060;&#48156;&#51032; &#49440;&#46160;&#51452;&#51088;&#51064; &#49828;&#54532;&#47553; &#54532;&#47112;&#51076;&#50892;&#53356;&#47484; &#49324;&#50857;&#54616;&#45716; &#48372;&#51312; &#54532;&#47196;&#51229;&#53944;&#46308;&#51060; &#44053;&#51312;&#46104;&#44256; &#51080;&#45796;. &#50644;&#53552;&#54532;&#46972;&#51060;&#51592; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496;&#51012; &#49324;&#50857;&#54616;&#45716;&#45936;&#50640; &#49828;&#54532;&#47553;&#51012; &#49324;&#50857;&#54616;&#44256; &#51080;&#51648; &#50506;&#45796;&#47732;, &#49828;&#54532;&#47553;&#51012; &#54620;&#48264; &#49332;&#51677; &#49332;&#54196;&#48372;&#44592;&#47484; &#52628;&#52380;&#54616;&#45716; &#48148;&#45796;. &#49828;&#54532;&#47553; - &#53945;&#55176; &#51032;&#51316;&#49457; &#51452;&#51077; &#50896;&#52825; - &#50640; &#45824;&#54620; &#51061;&#49689;&#54632;&#51060; Spring Security&#47484; &#45908; &#49789;&#44172; &#49324;&#50857;&#54616;&#46020;&#47197; &#54644;&#51460; &#44163;&#51060;&#45796;.</p>
+<p>&#49324;&#46988;&#46308;&#51008; &#47566;&#51008; &#51060;&#50976;&#50640;&#49436; Spring Security&#47484; &#49324;&#50857;&#54620;&#45796;. &#54616;&#51648;&#47564; &#45824;&#48512;&#48516;&#51032; &#44221;&#50864;, Java EE &#49436;&#48660;&#47551; &#47749;&#49464;&#45208; EJB &#47749;&#49464;&#50640;&#49436; &#51204;&#54805;&#51201;&#51064; &#50644;&#53552;&#54532;&#46972;&#51060;&#51592; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496; &#49884;&#45208;&#47532;&#50724;&#50640; &#54596;&#50836;&#54620; &#48372;&#50504; &#54588;&#52432;&#51032; &#44618;&#51060;&#44032; &#48512;&#51313;&#54616;&#45796;&#45716; &#44163;&#51012; &#44648;&#45804;&#51008; &#54980;&#50640;&#50556; &#49324;&#50857;&#54620;&#45796;. &#44536;&#47084;&#54620; &#54364;&#51456;&#51032; &#48372;&#50504; &#49444;&#51221;&#51008;, WAR&#45208; EAR &#49688;&#51456;&#50640;&#49436; &#51060;&#46041;&#51060; &#48520;&#44032;&#45733;&#54616;&#45796;&#45716; &#44163;&#51060; &#54645;&#49900;&#51060;&#45796;. &#44536;&#47111;&#44592; &#46412;&#47928;&#50640; &#49436;&#48260; &#54872;&#44221;&#51012; &#48148;&#44984;&#47732; &#49352;&#47196;&#50868; &#53440;&#44191; &#54872;&#44221;&#50640; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496; &#48372;&#50504;&#51012; &#51116;&#49444;&#51221;&#54616;&#44592; &#50948;&#54644; &#47566;&#51008; &#51089;&#50629;&#51060; &#54596;&#50836;&#54616;&#45796;. Spring Security&#45716; &#51060;&#47084;&#54620; &#47928;&#51228;&#47484; &#54644;&#44208;&#54644;&#51456;&#45796;. &#44144;&#44592;&#50640; &#45908;&#54644; &#50976;&#50857;&#54620; &#49324;&#50857;&#51088; &#51221;&#51032; &#48372;&#50504; &#54588;&#52432;&#46020; &#50668;&#47103; &#51228;&#44277;&#46108;&#45796;.</p>
+<p>&#50500;&#47560; &#50508;&#44256; &#51080;&#44192;&#51648;&#47564;, &#50612;&#54540;&#47532;&#52992;&#51060;&#49496;&#51032; &#46160;&#44032;&#51648; &#51452;&#50836; &#48516;&#50556;&#45716; "&#51064;&#51613;(authentication)"&#44284; "&#44428;&#54620;&#48512;&#50668;(authorization)"(&#46608;&#45716; "&#51217;&#44540; &#51228;&#50612;(access-control)")&#51060;&#45796;. Spring Security&#51032; &#51452;&#50836; &#53440;&#44191;&#51064; &#46160; &#48516;&#50556;&#51060;&#44592;&#46020; &#54616;&#45796;. "&#51064;&#51613;"&#51008; &#51088;&#49888;&#51060; &#45572;&#44396;&#46972;&#44256; &#51452;&#51109;&#54616;&#45716; &#51452;&#52404;&#47484; &#54869;&#51064;&#54616;&#45716; &#54532;&#47196;&#49464;&#49828;&#45796;(&#51068;&#48152;&#51201;&#51004;&#47196; "&#51452;&#52404;"&#45716; &#49324;&#50857;&#51088;&#45208; &#46356;&#48148;&#51060;&#49828; &#54841;&#51008; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496;&#50640;&#49436; &#50529;&#49496;&#51012; &#49688;&#54665;&#54624; &#49688; &#51080;&#45716; &#49884;&#49828;&#53596;&#51012; &#51032;&#48120;&#54620;&#45796;). "&#44428;&#54620; &#48512;&#50668;"&#45716; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496; &#45236;&#50640;&#49436; &#51452;&#52404;&#44032; &#50529;&#49496;&#51012; &#49688;&#54665;&#54616;&#46020;&#47197; &#54728;&#46973;&#54616;&#45716; &#44163;&#51012; &#44208;&#51221;&#54616;&#45716; &#54532;&#47196;&#49464;&#49828;&#45796;. &#44428;&#54620; &#48512;&#50668; &#44208;&#51221;&#51060; &#54596;&#50836;&#54620; &#54252;&#51064;&#53944;&#50640; &#46020;&#45804;&#54616;&#44592; &#50948;&#54644;&#49436;&#45716;, &#51452;&#52404;&#44032; &#51060;&#48120; &#51064;&#51613; &#54532;&#47196;&#49464;&#49828;&#47484; &#53685;&#54644; &#54869;&#51064;&#46108; &#49345;&#53468;&#50668;&#50556;&#54620;&#45796;. &#51060; &#44060;&#45392;&#46308;&#51008; Spring Security&#50640;&#47564; &#54644;&#45817;&#54616;&#45716; &#44163;&#51060; &#50500;&#45768;&#46972; &#51068;&#48152;&#51201;&#51064; &#44163;&#51060;&#45796;.</p>
+<p>&#51064;&#51613; &#47112;&#48296;&#50640;&#49436; Spring Security&#45716; &#45331;&#51008; &#48276;&#50948;&#51032; &#51064;&#51613; &#47784;&#45944;&#51012; &#51648;&#50896;&#54620;&#45796;. &#51060; &#51064;&#51613; &#47784;&#45944;&#51032; &#45824;&#48512;&#48516;&#51008; &#50024;&#46300; &#54028;&#54000;&#50640;&#49436; &#51228;&#44277;&#46104;&#44144;&#45208; Internet Engineering Task Force&#44057;&#51008; &#44288;&#47144; &#54364;&#51456; &#45800;&#52404;&#50640;&#49436; &#44060;&#48156;&#46108;&#45796;. &#52628;&#44032;&#51201;&#51004;&#47196;, Spring Security&#45716; &#51088;&#52404;&#51201;&#51064; &#51064;&#51613; &#54588;&#52432; &#49483;&#51012; &#51228;&#44277;&#54620;&#45796;. &#44396;&#52404;&#51201;&#51004;&#47196;&#45716; &#54788;&#51116; &#50500;&#47000;&#50752; &#44057;&#51008; &#44592;&#49696;&#44284; &#54632;&#44760; &#53685;&#54633; &#51064;&#51613;(authentication integration)&#51012; &#51648;&#50896;&#54620;&#45796;:</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+HTTP BASIC authentication headers (an IETF RFC-based standard)
+</li><li class="listitem">
+HTTP Digest authentication headers (an IETF RFC-based standard)
+</li><li class="listitem">
+HTTP X.509 client certificate exchange (an IETF RFC-based standard)
+</li><li class="listitem">
+LDAP (&#53360; &#54872;&#44221;&#50640;&#49436; &#53356;&#47196;&#49828;-&#54540;&#47019;&#54268; &#51064;&#51613; &#45768;&#51592;&#44032; &#51080;&#51012; &#46412; &#50500;&#51452; &#51068;&#48152;&#51201;&#51064; &#51217;&#44540; &#48169;&#49885;)
+</li><li class="listitem">
+Form-based authentication (&#44036;&#45800;&#54620; &#49324;&#50857;&#51088; &#51064;&#53552;&#54168;&#51060;&#49828; &#45768;&#51592;&#44032; &#51080;&#51012; &#46412;)
+</li><li class="listitem">
+OpenID authentication
+</li><li class="listitem">
+Authentication based on pre-established request headers (Computer Associates Siteminder&#50752; &#44057;&#51008;)
+</li><li class="listitem">
+JA-SIG Central Authentication Service (CAS&#46972;&#44256;&#46020; &#50508;&#47140;&#51652; &#45824;&#51473;&#51201;&#51064; &#50724;&#54536;&#49548;&#49828; &#53685;&#54633;&#51064;&#51613;(single sing-on) &#49884;&#49828;&#53596;)
+</li><li class="listitem">
+Transparent authentication context propagation for Remote Method Invocation (RMI) and HttpInvoker (Spring remoting &#54532;&#47196;&#53664;&#53084;)
+</li><li class="listitem">
+Automatic "remember-me" authentication (&#44536;&#47000;&#49436; &#50696;&#51221;&#46108; &#44592;&#44036;&#46041;&#50504; &#51116;&#51064;&#51613;&#54616;&#45716; &#44163;&#51012; &#54588;&#54616;&#44592; &#50948;&#54644; &#54364;&#49884;&#47484; &#54644;&#46168; &#49688; &#51080;&#45796;)
+</li><li class="listitem">
+Anonymous authentication (&#51064;&#51613;&#46104;&#51648; &#50506;&#51008; &#47784;&#46304; &#50836;&#52397;&#50640;&#44172; &#53945;&#51221;&#54620; &#48372;&#50504; &#49888;&#48516;&#51012; &#54728;&#50857;&#54616;&#45716; &#44163;)
+</li><li class="listitem">
+Run-as authentication (&#54616;&#45208;&#51032; &#50836;&#52397;&#51060; &#49436;&#47196; &#45796;&#47480; &#48372;&#50504; &#49888;&#48516;&#51004;&#47196; &#51652;&#54665;&#46104;&#50612;&#50556;&#54616;&#45716; &#44221;&#50864;&#50640; &#50976;&#50857;)
+</li><li class="listitem">
+Java Authentication and Authorization Service (JAAS)
+</li><li class="listitem">
+JEE container autentication (&#50896;&#54620;&#45796;&#47732; &#50668;&#51204;&#55176; Container Managed Authentication &#51012; &#49324;&#50857;&#54624; &#49688; &#51080;&#45796;)
+</li><li class="listitem">
+Kerberos
+</li><li class="listitem">
+Java Open Source Single Sign On (JOSSO) *
+</li><li class="listitem">
+OpenNMS Network Management Platform *
+</li><li class="listitem">
+AppFuse *
+</li><li class="listitem">
+AndroMDA *
+</li><li class="listitem">
+Mule ESB *
+</li><li class="listitem">
+Direct Web Request (DWR) *
+</li><li class="listitem">
+Grails *
+</li><li class="listitem">
+Tapestry *
+</li><li class="listitem">
+JTrac *
+</li><li class="listitem">
+Jasypt *
+</li><li class="listitem">
+Roller *
+</li><li class="listitem">
+Elastic Path *
+</li><li class="listitem">
+Atlassian Crowd *
+</li><li class="listitem">
+Your own authentication systems (&#50500;&#47000;&#47484; &#54869;&#51064;)
+</li></ul></div>
+<p>(* &#54364;&#49884;&#45716; &#50024;&#46300;&#54028;&#54000;&#50640; &#51032;&#54644; &#51228;&#44277;&#46104;&#50632;&#51020;&#51012; &#45208;&#53440;&#45240;&#45796;)</p>
+<p>&#47566;&#51008; &#46021;&#47549;&#51201;&#51064; &#49548;&#54532;&#53944;&#50920;&#50612; &#48292;&#45908;&#46308;(ISVs)&#51060; &#51060;&#47111;&#44172; &#47566;&#51008; &#49440;&#53469;&#51648; &#51473;&#50640; &#50976;&#50672;&#54616;&#44172; &#51064;&#51613; &#47784;&#45944;&#46308;&#51012; &#49440;&#53469;&#54624; &#49688; &#51080;&#44592; &#46412;&#47928;&#50640; Spring Security&#47484; &#51201;&#50857;&#54620;&#45796;. &#46608;&#54620;, &#44536;&#47111;&#44172; &#54616;&#45716; &#44163;&#51060; &#50644;&#51648;&#45768;&#50612;&#47553;&#50640; &#47566;&#51008; &#49884;&#44036;&#51012; &#46308;&#51060;&#51648; &#50506;&#44256;, &#53364;&#46972;&#51060;&#50616;&#53944;&#51032; &#54872;&#44221;&#51012; &#48148;&#44992; &#54596;&#50836;&#46020; &#50630;&#51060; &#44536;&#46308;&#51032; &#49556;&#47336;&#49496;&#51012; &#48736;&#47476;&#44172; &#53685;&#54633;&#54624; &#49688; &#51080;&#46020;&#47197; &#54644;&#51456;&#45796;. &#47564;&#50557; &#50948;&#51032; &#51064;&#51613; &#47588;&#52964;&#45768;&#51608; &#51473; &#50612;&#45712; &#44163;&#46020; &#45817;&#49888;&#51032; &#45768;&#51592;&#47484; &#52649;&#51313;&#54616;&#51648; &#47803;&#54620;&#45796;&#47732;, Spring Security&#45716; &#50724;&#54536; &#54540;&#47019;&#54268;&#51060;&#48064;&#47196; &#45817;&#49888;&#47564;&#51032; &#51064;&#51613; &#47588;&#52964;&#45768;&#51608;&#51012; &#44036;&#45800;&#54616;&#44172; &#51089;&#49457;&#54616;&#47732; &#46108;&#45796;. Spring Security&#51032; &#47566;&#51008; &#44592;&#50629; &#49324;&#50857;&#51088;&#46308;&#51060; &#50612;&#46500; &#53945;&#51221;&#54620; &#48372;&#50504; &#54364;&#51456;&#46020; &#46384;&#47476;&#51648; &#50506;&#45716; "&#47112;&#44144;&#49884;(legacy)" &#49884;&#49828;&#53596;&#44284; &#53685;&#54633;&#54644;&#50556;&#54616;&#45716;&#45936;, Spring Security &#45716; &#44536;&#47084;&#54620; &#49884;&#49828;&#53596;&#44284; &#44592;&#44732;&#51060; "&#51096; &#50997;&#54868;&#46108;&#45796;(play nicely)".</p>
+<p>&#49900;&#46020;&#51080;&#45716; Spring Security&#45716; &#51064;&#51613;(authentication) &#47588;&#52964;&#45768;&#51608;&#44284;&#45716; &#49345;&#44288;&#50630;&#51060;, &#49900;&#46020;&#51080;&#45716; &#44428;&#54620; &#48512;&#50668;(authorization) &#44592;&#45733; &#46608;&#54620; &#51228;&#44277;&#54620;&#45796;. &#49464;&#44032;&#51648; &#51452;&#50836; &#44288;&#49900; &#48516;&#50556;&#44032; &#51080;&#45796; - &#50937; &#47532;&#53272;&#49828;&#53944; &#44428;&#54620; &#48512;&#50668;, &#47700;&#49436;&#46300;&#44032; &#54840;&#52636;&#46112; &#49688; &#51080;&#45716;&#51648;&#50640; &#45824;&#54620; &#44428;&#54620; &#48512;&#50668;, &#44060;&#48324; &#46020;&#47700;&#51064; &#44061;&#52404; &#51064;&#49828;&#53556;&#49828;&#46308;&#50640; &#51217;&#44540;&#54624; &#49688; &#51080;&#45716; &#44428;&#54620; &#48512;&#50668;. &#52264;&#51060;&#51216;&#51012; &#51060;&#54644;&#54616;&#45716; &#45936; &#46020;&#50880;&#51060; &#46104;&#46020;&#47197;, &#49436;&#48660;&#47551; &#47749;&#49464; &#50937; &#54056;&#53556; &#48372;&#50504;, EJB Container Managed Security&#50752; &#54028;&#51068; &#49884;&#49828;&#53596; &#48372;&#50504;&#50640;&#49436; &#48380; &#49688; &#51080;&#45716; &#44428;&#54620; &#48512;&#50668; &#44592;&#45733;&#51012; &#44033;&#44033; &#49373;&#44033;&#54644;&#48372;&#46972;. &#48376; &#47112;&#54140;&#47088;&#49828;&#50640;&#49436; &#49332;&#54196;&#48372;&#44192;&#51648;&#47564;, Spring Security&#45716; &#51060; &#47784;&#46304; &#51473;&#50836;&#54620; &#48516;&#50556;&#50640;&#49436; &#49900;&#46020;&#51080;&#45716; &#44592;&#45733;&#51012; &#51228;&#44277;&#54620;&#45796;.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="history" href="#history"></a>1.2&nbsp;&#55176;&#49828;&#53664;&#47532;</h2></div></div></div>
+
+<p>Spring Security began in late 2003 as "The Acegi Security System for Spring". A question was posed on the Spring Developers' mailing list asking whether there had been any consideration given to a Spring-based security implementation. At the time the Spring community was relatively small (especially compared with the size today!), and indeed Spring itself had only existed as a SourceForge project from early 2003. The response to the question was that it was a worthwhile area, although a lack of time currently prevented its exploration.</p>
+<p>With that in mind, a simple security implementation was built and not released. A few weeks later another member of the Spring community inquired about security, and at the time this code was offered to them. Several other requests followed, and by January 2004 around twenty people were using the code. These pioneering users were joined by others who suggested a SourceForge project was in order, which was duly established in March 2004.</p>
+<p>In those early days, the project didn&#8217;t have any of its own authentication modules. Container Managed Security was relied upon for the authentication process, with Acegi Security instead focusing on authorization. This was suitable at first, but as more and more users requested additional container support, the fundamental limitation of container-specific authentication realm interfaces became clear. There was also a related issue of adding new JARs to the container&#8217;s classpath, which was a common source of end user confusion and misconfiguration.</p>
+<p>Acegi Security-specific authentication services were subsequently introduced. Around a year later, Acegi Security became an official Spring Framework subproject. The 1.0.0 final release was published in May 2006 - after more than two and a half years of active use in numerous production software projects and many hundreds of improvements and community contributions.</p>
+<p>Acegi Security became an official Spring Portfolio project towards the end of 2007 and was rebranded as "Spring Security".</p>
+<p>Today Spring Security enjoys a strong and active open source community. There are thousands of messages about Spring Security on the support forums. There is an active core of developers who work on the code itself and an active community which also regularly share patches and support their peers.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="release-numbering" href="#release-numbering"></a>1.3&nbsp;Release Numbering</h2></div></div></div>
+
+<p>It is useful to understand how Spring Security release numbers work, as it will help you identify the effort (or lack thereof) involved in migrating to future releases of the project. Each release uses a standard triplet of integers: MAJOR.MINOR.PATCH. The intent is that MAJOR versions are incompatible, large-scale upgrades of the API. MINOR versions should largely retain source and binary compatibility with older minor versions, thought there may be some design changes and incompatible updates. PATCH level should be perfectly compatible, forwards and backwards, with the possible exception of changes which are to fix bugs and defects.</p>
+<p>The extent to which you are affected by changes will depend on how tightly integrated your code is. If you are doing a lot of customization you are more likely to be affected than if you are using a simple namespace configuration.</p>
+<p>You should always test your application thoroughly before rolling out a new version.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="get-spring-security" href="#get-spring-security"></a>1.4&nbsp;Spring Security &#48520;&#47084;&#50724;&#44592;</h2></div></div></div>
+
+<p>Spring Security&#47484; &#48520;&#47084;&#50724;&#45716; &#48169;&#48277;&#50640;&#45716; &#47751;&#44032;&#51648;&#44032; &#51080;&#45796;. &#47700;&#51064; &#54168;&#51060;&#51648; <a class="ulink" href="http://spring.io/spring-security" target="_top">Spring Security</a> &#50640;&#49436; &#48176;&#54252;&#54032; &#54056;&#53412;&#51648;&#47484; &#45796;&#50868;&#47196;&#46300;&#48155;&#44144;&#45208;, Maven Central repository&#50640;&#49436; &#44060;&#48324; jars&#47484;(&#54841;&#51008; SpringSource Maven repository&#50640;&#49436; snapshot&#44284; milestone releases&#47484;)&#48155;&#44144;&#45208;, &#49548;&#49828;&#50640;&#49436; &#51649;&#51217; &#48716;&#46300;&#54624; &#49688;&#46020; &#51080;&#45796;.</p>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="maven" href="#maven"></a>1.4.1&nbsp;Maven</h3></div></div></div>
+
+<p>Spring Security&#51032; &#47700;&#51060;&#48656;&#50857; &#52572;&#49548;&#54620;&#51032; &#53076;&#46300; &#49483;&#51008; &#45796;&#51020;&#44284; &#44057;&#45796;:</p>
+<p>
+<b>pom.xml.&nbsp;</b>
+
+</p><pre class="programlisting"><span class="hl-tag">&lt;dependencies&gt;</span>
+<span class="hl-comment">&lt;!-- ... other dependency elements ... --&gt;</span>
+<span class="hl-tag">&lt;dependency&gt;</span>
+	<span class="hl-tag">&lt;groupId&gt;</span>org.springframework.security<span class="hl-tag">&lt;/groupId&gt;</span>
+	<span class="hl-tag">&lt;artifactId&gt;</span>spring-security-web<span class="hl-tag">&lt;/artifactId&gt;</span>
+	<span class="hl-tag">&lt;version&gt;</span>4.0.2.CI-SNAPSHOT<span class="hl-tag">&lt;/version&gt;</span>
+<span class="hl-tag">&lt;/dependency&gt;</span>
+<span class="hl-tag">&lt;dependency&gt;</span>
+	<span class="hl-tag">&lt;groupId&gt;</span>org.springframework.security<span class="hl-tag">&lt;/groupId&gt;</span>
+	<span class="hl-tag">&lt;artifactId&gt;</span>spring-security-config<span class="hl-tag">&lt;/artifactId&gt;</span>
+	<span class="hl-tag">&lt;version&gt;</span>4.0.2.CI-SNAPSHOT<span class="hl-tag">&lt;/version&gt;</span>
+<span class="hl-tag">&lt;/dependency&gt;</span>
+<span class="hl-tag">&lt;/dependencies&gt;</span></pre><p>
+
+</p>
+<p>&#47564;&#50557; LDAP, OpenID &#46321;&#51012; &#49324;&#50857;&#54616;&#44256; &#51080;&#45796;&#47732; &#51201;&#51208;&#54620; <a class="xref" href="introduction.html#modules" title="1.4.3&nbsp;Project Modules">Section&nbsp;1.4.3, &#8220;Project Modules&#8221;</a> &#46020; &#54252;&#54632;&#54644;&#50556; &#54620;&#45796;.</p>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="maven-repositories" href="#maven-repositories"></a>Maven Repositories</h4></div></div></div>
+
+<p>&#47784;&#46304; GA releases (.RELEASE&#47196; &#45149;&#45208;&#45716; &#48260;&#51204;)&#45716; Maven Central&#50640; &#50732;&#46972;&#44032; &#51080;&#45796;. &#46384;&#46972;&#49436;, &#45796;&#47480; &#52628;&#44032;&#51201;&#51064; &#47700;&#51060;&#48656; &#47532;&#54028;&#51648;&#53664;&#47532;&#44032; pom&#50640; &#49440;&#50616;&#46112; &#54596;&#50836;&#45716; &#50630;&#45796;.</p>
+<p>SNAPSHOT &#48260;&#51204;&#51012; &#49324;&#50857;&#54620;&#45796;&#47732;, &#50500;&#47000;&#50752; &#44057;&#51008; Spring Snapshot repository&#47484; &#51221;&#51032;&#54664;&#45716;&#51648; &#54869;&#51064;&#54644;&#50556;&#54620;&#45796;:</p>
+<p>
+<b>pom.xml.&nbsp;</b>
+
+</p><pre class="programlisting"><span class="hl-tag">&lt;repositories&gt;</span>
+<span class="hl-comment">&lt;!-- ... possibly other repository elements ... --&gt;</span>
+<span class="hl-tag">&lt;repository&gt;</span>
+	<span class="hl-tag">&lt;id&gt;</span>spring-snapshot<span class="hl-tag">&lt;/id&gt;</span>
+	<span class="hl-tag">&lt;name&gt;</span>Spring Snapshot Repository<span class="hl-tag">&lt;/name&gt;</span>
+	<span class="hl-tag">&lt;url&gt;</span>http://repo.springsource.org/snapshot<span class="hl-tag">&lt;/url&gt;</span>
+<span class="hl-tag">&lt;/repository&gt;</span>
+<span class="hl-tag">&lt;/repositories&gt;</span></pre><p>
+
+</p>
+<p>milestone &#51060;&#45208; release candidate &#48260;&#51204;&#51012; &#49324;&#50857;&#54620;&#45796;&#47732;, &#50500;&#47000;&#50752; &#44057;&#51008; Spring Milestone repository&#47484; &#51221;&#51032;&#54664;&#45716;&#51648; &#54869;&#51064;&#54644;&#50556;&#54620;&#45796;:</p>
+<p>
+<b>pom.xml.&nbsp;</b>
+
+</p><pre class="programlisting"><span class="hl-tag">&lt;repositories&gt;</span>
+<span class="hl-comment">&lt;!-- ... possibly other repository elements ... --&gt;</span>
+<span class="hl-tag">&lt;repository&gt;</span>
+	<span class="hl-tag">&lt;id&gt;</span>spring-milestone<span class="hl-tag">&lt;/id&gt;</span>
+	<span class="hl-tag">&lt;name&gt;</span>Spring Milestone Repository<span class="hl-tag">&lt;/name&gt;</span>
+	<span class="hl-tag">&lt;url&gt;</span>http://repo.springsource.org/milestone<span class="hl-tag">&lt;/url&gt;</span>
+<span class="hl-tag">&lt;/repository&gt;</span>
+<span class="hl-tag">&lt;/repositories&gt;</span></pre><p>
+
+</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="maven-bom" href="#maven-bom"></a>Spring Framework Bom</h4></div></div></div>
+
+<p>Spring Security&#45716; &#49828;&#54532;&#47553; &#54532;&#47112;&#51076;&#50892;&#53356;&#51032; &#48260;&#51204; 4.1.6.RELEASE&#44284; &#45804;&#46972;&#46020; &#48716;&#46300;&#46112; &#49688; &#51080;&#45796;. &#54616;&#51648;&#47564; 4.0.x &#45824;&#51032; &#48260;&#51204;&#51060;&#50612;&#50556; &#54620;&#45796;. &#47566;&#51008; &#50976;&#51200;&#46308;&#51060; &#51060;&#47084;&#54620; Spring Security&#51032; &#51060;&#54665;&#51201; &#51032;&#51316;&#49457;(transitive dependencies)&#51060; &#49828;&#54532;&#47553; &#54532;&#47112;&#51076;&#50892;&#53356; 4.1.6.RELEASE&#50640; &#45433;&#50500;&#46300;&#45716; &#44163;(resolve)&#51004;&#47196; &#51064;&#54644; &#51060;&#49345;&#54620; &#53364;&#47000;&#49828;&#54056;&#49828; &#47928;&#51228;&#50640; &#48736;&#51652;&#45796;.</p>
+<p>&#51060; &#47928;&#51228;&#47484; &#54588;&#54616;&#45716; &#54616;&#45208;&#51032; (&#46384;&#48516;&#54620;) &#48169;&#48277;&#51008; pom&#50640; &#47784;&#46304; &#49828;&#54532;&#47553; &#54532;&#47112;&#51076;&#50892;&#53356; &#47784;&#46280; <a class="ulink" href="http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management" target="_top">&lt;dependencyManagement&gt;</a> &#51012; &#54252;&#54632;&#49884;&#53412;&#45716; &#44163;&#51060;&#45796;. &#45796;&#47480; &#48169;&#48277;&#51004;&#47196;&#45716; &#50500;&#47000;&#50752; &#44057;&#51060; <code class="literal">pom.xml`&#51032; `&lt;dependencyManagement&gt;</code> &#49465;&#49496;&#50640; `spring-framework-bom`&#47484; &#54252;&#54632;&#49884;&#53412;&#45716; &#44163;&#51060;&#45796;:</p>
+<p>
+<b>pom.xml.&nbsp;</b>
+
+</p><pre class="programlisting"><span class="hl-tag">&lt;dependencyManagement&gt;</span>
+	<span class="hl-tag">&lt;dependencies&gt;</span>
+	<span class="hl-tag">&lt;dependency&gt;</span>
+		<span class="hl-tag">&lt;groupId&gt;</span>org.springframework<span class="hl-tag">&lt;/groupId&gt;</span>
+		<span class="hl-tag">&lt;artifactId&gt;</span>spring-framework-bom<span class="hl-tag">&lt;/artifactId&gt;</span>
+		<span class="hl-tag">&lt;version&gt;</span>4.1.6.RELEASE<span class="hl-tag">&lt;/version&gt;</span>
+		<span class="hl-tag">&lt;type&gt;</span>pom<span class="hl-tag">&lt;/type&gt;</span>
+		<span class="hl-tag">&lt;scope&gt;</span>import<span class="hl-tag">&lt;/scope&gt;</span>
+	<span class="hl-tag">&lt;/dependency&gt;</span>
+	<span class="hl-tag">&lt;/dependencies&gt;</span>
+<span class="hl-tag">&lt;/dependencyManagement&gt;</span></pre><p>
+
+</p>
+<p>&#51060; &#48169;&#48277;&#51060; Spring Security&#51032; &#47784;&#46304; &#51060;&#54665;&#51201; &#51032;&#51316;&#49457;&#51060; Spring 4.1.6.RELEASE &#47784;&#46280;&#51012; &#49324;&#50857;&#54616;&#46020;&#47197; &#47564;&#46308; &#44163;&#51060;&#45796;.</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top">
+<p>&#51060; &#51217;&#44540;&#48277;&#51008; &#47700;&#51060;&#48656;&#51032; "bill of materials" (BOM) &#52968;&#49481;&#51012; &#51060;&#50857;&#54664;&#44256;, &#47700;&#51060;&#48656; 2.0.9 &#51060;&#54980; &#48512;&#53552; &#44032;&#45733;&#54620; &#48169;&#48277;&#51060;&#45796;. &#51032;&#51316;&#49457;&#51060; &#50612;&#46523;&#44172; &#45433;&#50500;&#46300;&#45716;&#51648;&#50640; &#45824;&#54620; &#52628;&#44032;&#51201;&#51064; &#51221;&#48372;&#45716;  <a class="ulink" href="http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html" target="_top">Maven&#8217;s Introduction to the Dependency Mechanism documentation</a>&#47484; &#52280;&#44256;&#54616;&#46972;.</p>
+</td></tr></table></div>
+</div>
+</div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="gradle" href="#gradle"></a>1.4.2&nbsp;Gradle</h3></div></div></div>
+
+<p>Spring Security &#44536;&#47000;&#46308;&#50857; &#52572;&#49548;&#54620;&#51032; &#51032;&#51316;&#49457; &#49483;&#51008; &#45796;&#51020;&#44284; &#44057;&#45796;:</p>
+<p>
+<b>build.gradle.&nbsp;</b>
+
+</p><pre class="programlisting">dependencies {
+	compile <span class="hl-string">'org.springframework.security:spring-security-web:4.0.2.CI-SNAPSHOT'</span>
+	compile <span class="hl-string">'org.springframework.security:spring-security-config:4.0.2.CI-SNAPSHOT'</span>
+}</pre><p>
+
+</p>
+<p>&#47564;&#50557; LDAP, OpenID &#46321;&#51012; &#49324;&#50857;&#54620;&#45796;&#47732; &#51201;&#51208;&#54620; <a class="xref" href="introduction.html#modules" title="1.4.3&nbsp;Project Modules">Section&nbsp;1.4.3, &#8220;Project Modules&#8221;</a>&#46020; &#54252;&#54632;&#49884;&#53020;&#50556;&#54620;&#45796;.</p>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="gradle-repositories" href="#gradle-repositories"></a>Gradle Repositories</h4></div></div></div>
+
+<p>&#47784;&#46304; GA releases (.RELEASE&#47196; &#45149;&#45208;&#45716; &#48260;&#51204;)&#45716; Maven Central&#50640; &#50732;&#46972;&#44032;&#51080;&#51004;&#48064;&#47196;  mavenCentral() repository&#47484; &#51060;&#50857;&#54616;&#45716; &#44163;&#51060;&#47732; &#52649;&#48516;&#54616;&#45796;.</p>
+<p>
+<b>build.gradle.&nbsp;</b>
+
+</p><pre class="programlisting">repositories {
+	mavenCentral()
+}</pre><p>
+
+</p>
+<p>SNAPSHOT &#48260;&#51204;&#51012; &#49324;&#50857;&#54620;&#45796;&#47732;, &#50500;&#47000;&#50752; &#44057;&#51060; &#51221;&#51032;&#46108; Spring Snapshot repository&#44032; &#51080;&#45716;&#51648; &#54869;&#51064;&#54644;&#50556;&#54620;&#45796;:</p>
+<p>
+<b>build.gradle.&nbsp;</b>
+
+</p><pre class="programlisting">repositories {
+	maven { url <span class="hl-string">'https://repo.spring.io/snapshot'</span> }
+}</pre><p>
+
+</p>
+<p>milestone &#51060;&#45208; release candidate &#48260;&#51204;&#51012; &#49324;&#50857;&#54620;&#45796;&#47732;, &#50500;&#47000;&#50752; &#44057;&#51008; Spring Milestone repository&#47484; &#51221;&#51032;&#54664;&#45716;&#51648; &#54869;&#51064;&#54644;&#50556;&#54620;&#45796;:</p>
+<p>
+<b>build.gradle.&nbsp;</b>
+
+</p><pre class="programlisting">repositories {
+	maven { url <span class="hl-string">'https://repo.spring.io/milestone'</span> }
+}</pre><p>
+
+</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="gradle-resolutionStrategy" href="#gradle-resolutionStrategy"></a>Spring 4.0.x &#44284; Gradle</h4></div></div></div>
+
+<p>&#44536;&#47000;&#46308;&#51008; transitive &#48260;&#51204;&#51012; &#48320;&#54872;&#54624; &#46412; &#46356;&#54260;&#53944;&#47196; &#52572;&#49888;&#51032; &#48260;&#51204;&#51012; &#49324;&#50857;&#54620;&#45796;. &#51593;, Spring Security 4.0.2.CI-SNAPSHOT &#47484; Spring Framework 4.1.6.RELEASE&#50640;&#49436; &#49324;&#50857;&#54624; &#46412;, &#45796;&#47480; &#52628;&#44032;&#51201;&#51064; &#51089;&#50629;&#51060; &#54596;&#50836; &#50630;&#51012; &#49688;&#46020; &#51080;&#45796;&#45716; &#46907;&#51060;&#45796;. &#44536;&#47084;&#45208; &#47928;&#51228;&#44032; &#49373;&#44600; &#49688;&#46020; &#51080;&#51004;&#48064;&#47196; &#50500;&#47000;&#50752; &#44057;&#51060;  <a class="ulink" href="http://www.gradle.org/docs/current/dsl/org.gradle.api.artifacts.ResolutionStrategy.html" target="_top">Gradle&#8217;s ResolutionStrategy</a>&#47484; &#51060;&#50857;&#54644;&#49436; &#49324;&#51204;&#50640; &#48169;&#51648;&#54616;&#45716; &#44163;&#51060; &#51339;&#44192;&#45796;:</p>
+<p>
+<b>build.gradle.&nbsp;</b>
+
+</p><pre class="programlisting">configurations.all {
+	resolutionStrategy.eachDependency { DependencyResolveDetails details -&gt;
+		<span class="hl-keyword">if</span> (details.requested.group == <span class="hl-string">'org.springframework'</span>) {
+			details.useVersion <span class="hl-string">'4.1.6.RELEASE'</span>
+		}
+	}
+}</pre><p>
+
+</p>
+<p>&#51060;&#47111;&#44172; &#54616;&#47732; Spring Security&#51032; &#47784;&#46304; transitive dependencies&#51060; Spring 4.1.6.RELEASE &#47784;&#46280;&#51012; &#49324;&#50857;&#54616;&#44172; &#46108;&#45796;.</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top">
+<p>&#51060; &#50696;&#51228;&#45716; Gradle 1.9&#47484; &#49324;&#50857;&#54664;&#45716;&#45936;, &#51060;&#45716; Gradle&#51032; &#51064;&#53328;&#48288;&#51060;&#54021; &#54588;&#52432;&#51060;&#48064;&#47196; &#52264;&#54980; &#48260;&#51204;&#50640;&#49436;&#45716; &#49688;&#51221;&#51060; &#54596;&#50836;&#54624; &#49688;&#46020; &#51080;&#45796;.</p>
+</td></tr></table></div>
+</div>
+</div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="modules" href="#modules"></a>1.4.3&nbsp;Project Modules</h3></div></div></div>
+
+<p>Spring Security 3.0&#50640;&#49436;&#45716; &#44592;&#45733;&#48324;&#47196; &#48516;&#47532;&#54616;&#44256; &#50024;&#46300;&#54028;&#54000; &#51032;&#51316;&#49457;&#51012; &#47749;&#54869;&#54616;&#44172; &#44396;&#48516;&#54616;&#44592; &#50948;&#54644; &#53076;&#46300;&#48288;&#51060;&#49828;(codebase)&#44032; &#48324;&#44060;&#51032; jar&#54028;&#51068;&#47196; &#45208;&#45656;&#50612;&#51256;&#51080;&#45796;. &#47564;&#50557;, &#45817;&#49888;&#51032; &#54532;&#47196;&#51229;&#53944;&#47484; &#48716;&#46300;&#54624;&#46412; &#47700;&#51060;&#48656;&#51012; &#49324;&#50857;&#54616;&#44256; &#51080;&#45796;&#47732;, &#51060;&#44163;&#46308;&#51060; `pom.xml`&#50640; &#52628;&#44032;&#46104;&#50612;&#50556; &#54624; &#47784;&#46280;&#51060;&#45796;. &#47700;&#51060;&#48656;&#51012; &#49324;&#50857;&#54616;&#51648; &#50506;&#44256; &#51080;&#45908;&#46972;&#46020; &#50024;&#46300;&#54028;&#54000; &#51032;&#51316;&#49457;&#44284; &#48260;&#51204;&#51012; &#44256;&#47140;&#54616;&#50668; `pom.xml`&#50640; &#45824;&#54620; &#51312;&#50616;&#51012; &#44396;&#54616;&#44592; &#48148;&#46976;&#45796;. &#45824;&#50504;&#51004;&#47196; &#50696;&#51228; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496;&#50640; &#54252;&#54632;&#46104;&#50612;&#51080;&#45716; &#46972;&#51060;&#48652;&#47084;&#47532;&#46308;&#51012; &#49332;&#54196;&#48372;&#45716; &#44163;&#46020; &#51339;&#51008; &#48169;&#48277;&#51060;&#45796;.</p>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="spring-security-core" href="#spring-security-core"></a>Core - spring-security-core.jar</h4></div></div></div>
+
+<p>&#51064;&#51613;, &#51217;&#44540;&#51228;&#50612;&#47484; &#50948;&#54620; &#54645;&#49900; &#53364;&#47000;&#49828;&#50752; &#51064;&#53552;&#54168;&#51060;&#49828;, remoting &#51648;&#50896;, &#44592;&#48376; &#44428;&#54620; &#49444;&#51221; API(provisioning APIs)&#47484; &#54252;&#54632;&#54616;&#44256; &#51080;&#45796;. &#51060;&#45716; Spring Security&#47484; &#49324;&#50857;&#54616;&#45716; &#50612;&#46500; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496;&#51060;&#46304; &#54596;&#50836;&#54620; &#44163;&#46308;&#51060;&#45796;. &#46021;&#47549;&#51201;&#51064; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496;, &#50896;&#44201; &#53364;&#46972;&#51060;&#50616;&#53944;, &#47700;&#49436;&#46300;(&#49436;&#48708;&#49828; &#47112;&#51060;&#49436;) &#48372;&#50504; &#48143; JDBC &#50976;&#51200; &#44428;&#54620; &#49444;&#51221;&#46020; &#51648;&#50896;&#54620;&#45796;. &#52572;&#49345;&#50948; &#54056;&#53412;&#51648;&#47484; &#54252;&#54632;&#54616;&#44256; &#51080;&#45796;:</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+<code class="literal">org.springframework.security.core</code>
+</li><li class="listitem">
+<code class="literal">org.springframework.security.access</code>
+</li><li class="listitem">
+<code class="literal">org.springframework.security.authentication</code>
+</li><li class="listitem">
+<code class="literal">org.springframework.security.provisioning</code>
+</li></ul></div>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="spring-security-remoting" href="#spring-security-remoting"></a>Remoting - spring-security-remoting.jar</h4></div></div></div>
+
+<p>Spring Remoting&#44284; &#54632;&#44760; &#53685;&#54633;(Integration)&#51012; &#51228;&#44277;&#54620;&#45796;. Spring Remoting&#51012; &#49324;&#50857;&#54616;&#45716; &#50896;&#44201; &#53364;&#46972;&#51060;&#50616;&#53944;&#47484; &#51089;&#49457;&#54616;&#45716; &#44163;&#51060; &#50500;&#45768;&#46972;&#47732; &#54596;&#50836; &#50630;&#45796;. &#47700;&#51064; &#54056;&#53412;&#51648;&#45716;`org.springframework.security.remoting`.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="spring-security-web" href="#spring-security-web"></a>Web - spring-security-web.jar</h4></div></div></div>
+
+<p>&#54596;&#53552;&#50752; &#44288;&#47144;&#46108; &#50937; &#48372;&#50504; &#44592;&#48152; &#53076;&#46300;&#44032; &#54252;&#54632;&#46104;&#50612;&#51080;&#45796;. &#49436;&#48660;&#47551; API &#51032;&#51316;&#49457;&#44284; &#44288;&#47144;&#46108; &#44163;&#46308;&#51060; &#46308;&#50612;&#51080;&#45796;. You&#8217;ll need it if you require Spring Security &#50937; &#51064;&#51613; &#49436;&#48708;&#49828;&#45208; URL &#48288;&#51060;&#49828;&#51032; &#51217;&#44540; &#51228;&#50612;&#44032; &#54596;&#50836;&#54616;&#45796;&#47732; &#51060; jar&#47484; &#50024;&#50556;&#54620;&#45796;. &#47700;&#51064; &#54056;&#53412;&#51648;&#45716; <code class="literal">org.springframework.security.web</code>.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="spring-security-config" href="#spring-security-config"></a>Config - spring-security-config.jar</h4></div></div></div>
+
+<p>&#48372;&#50504; &#45348;&#51076;&#49828;&#54168;&#51060;&#49828;&#47484; &#54028;&#49905;&#54616;&#45716; &#53076;&#46300;&#44032; &#46308;&#50612;&#51080;&#45796;. &#49444;&#51221;&#50640; Spring Security XML &#45348;&#51076;&#49828;&#54168;&#51060;&#49828;&#47484; &#49324;&#50857;&#54620;&#45796;&#47732; &#51060; jar&#44032; &#54596;&#50836;&#54616;&#45796;. &#47700;&#51064; &#54056;&#53412;&#51648;&#45716; <code class="literal">org.springframework.security.config</code>. &#50612;&#54540;&#47532;&#52992;&#51060;&#49496;&#50640;&#49436; &#51649;&#51217; &#49324;&#50857;&#54616;&#45716; &#53364;&#47000;&#49828;&#45716; &#50630;&#45796;.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="spring-security-ldap" href="#spring-security-ldap"></a>LDAP - spring-security-ldap.jar</h4></div></div></div>
+
+<p>LDAP &#51064;&#51613;&#44284; &#44428;&#54620; &#49444;&#51221; &#53076;&#46300;&#47484; &#54252;&#54632;&#54616;&#44256; &#51080;&#45796;. LDAP &#51064;&#51613;&#51012; &#49324;&#50857;&#54616;&#44144;&#45208; LDAP &#50976;&#51200; &#50644;&#53944;&#47532;&#47484; &#44288;&#47532;&#54644;&#50556;&#54620;&#45796;&#47732; &#51060; jar&#44032; &#54596;&#50836;&#54616;&#45796;. &#52572;&#49345;&#50948; &#54056;&#53412;&#51648;&#45716; <code class="literal">org.springframework.security.ldap</code>.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="spring-security-acl" href="#spring-security-acl"></a>ACL - spring-security-acl.jar</h4></div></div></div>
+
+<p>&#51204;&#47928;&#54868;&#46108; &#46020;&#47700;&#51064; &#44061;&#52404; ACL &#44396;&#54788;&#52404;. &#50612;&#54540;&#47532;&#52992;&#51060;&#49496; &#45236;&#51032; &#53945;&#51221; &#46020;&#47700;&#51064; &#44061;&#52404; &#51064;&#49828;&#53556;&#49828;&#50640; &#48372;&#50504;&#51012; &#51201;&#50857;&#54616;&#44592; &#50948;&#54644; &#49324;&#50857;&#46108;&#45796;. &#52572;&#49345;&#50948; &#54056;&#53412;&#51648;&#45716; <code class="literal">org.springframework.security.acls</code>.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="spring-security-cas" href="#spring-security-cas"></a>CAS - spring-security-cas.jar</h4></div></div></div>
+
+<p>Spring Security&#51032; CAS &#53364;&#46972;&#51060;&#50616;&#53944; &#53685;&#54633;. &#53685;&#54633; &#51064;&#51613; &#49436;&#48260;&#47196; Spring Security &#50937; &#51064;&#51613;&#51012; &#54620;&#45796;&#47732; &#54596;&#50836;&#54616;&#45796;. &#52572;&#49345;&#50948; &#54056;&#53412;&#51648;&#45716; <code class="literal">org.springframework.security.cas</code>.</p>
+</div>
+<div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="spring-security-openid" href="#spring-security-openid"></a>OpenID - spring-security-openid.jar</h4></div></div></div>
+
+<p>OpenID &#50937; &#51064;&#51613; &#51648;&#50896;. &#50808;&#48512; OpenId &#49436;&#48260;&#50640; &#51080;&#45716; &#49324;&#50857;&#51088;&#46308;&#51012; &#51064;&#51613;&#54616;&#44592; &#50948;&#54644; &#49324;&#50857;&#54620;&#45796;. <code class="literal">org.springframework.security.openid</code>. OpenID4Java&#44032; &#54596;&#50836;&#54616;&#45796;.</p>
+</div>
+</div>
+<div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="get-source" href="#get-source"></a>1.4.4&nbsp;Checking out the Source</h3></div></div></div>
+
+<p>Spring Security&#45716; &#50724;&#54536;&#49548;&#49828; &#54532;&#47196;&#51229;&#53944;&#51060;&#44592;&#46412;&#47928;&#50640;, git&#51012; &#51060;&#50857;&#54616;&#50668; &#49548;&#49828;&#53076;&#46300;&#47484; &#52404;&#53356;&#54616;&#44592;&#47484; &#44053;&#47141;&#54616;&#44172; &#44428;&#51109;&#54620;&#45796;. git&#51012; &#51060;&#50857;&#54616;&#47732; &#47784;&#46304; &#50696;&#51228; &#50612;&#54540;&#47532;&#52992;&#51060;&#49496;&#50640; &#51217;&#44540;&#54624; &#49688; &#51080;&#44256;, &#52572;&#49888; &#48260;&#51204;&#51032; &#54532;&#47196;&#51229;&#53944;&#47484; &#49789;&#44172; &#48716;&#46300;&#54624; &#49688; &#51080;&#45796;. &#54532;&#47196;&#51229;&#53944;&#51032; &#49548;&#49828;&#47484; &#44032;&#51648;&#44256; &#51080;&#45716; &#44163;&#51008; &#46356;&#48260;&#44613;&#50640;&#46020; &#46020;&#50880;&#51060; &#46108;&#45796;. Exception stack traces&#45716; &#45908;&#51060;&#49345; &#48520;&#53804;&#47749;&#54620; &#48660;&#47001;&#48149;&#49828;&#44032; &#50500;&#45768;&#45796;. &#47928;&#51228;&#47484; &#51068;&#51004;&#53412;&#45716; &#46972;&#51064;&#51004;&#47196; &#51649;&#54665;&#54616;&#50668; &#47924;&#49832; &#51068;&#51060; &#51068;&#50612;&#45212; &#44163;&#51064;&#51648; &#54869;&#51064;&#54624; &#49688; &#51080;&#45796;. &#49548;&#49828;&#45716; &#54532;&#47196;&#51229;&#53944;&#51032; &#50756;&#51204;&#54620; &#45796;&#53328;&#47676;&#53944;&#51060;&#44256; &#49892;&#51228;&#47196; &#50612;&#46523;&#44172; &#51089;&#46041;&#54616;&#45716; &#51648;&#50640; &#45824;&#54644; &#44032;&#51109; &#44036;&#45800;&#54616;&#44172; &#50508; &#49688; &#51080;&#45716; &#44275;&#51060; &#46104;&#50612;&#51456;&#45796;.</p>
+<p>&#54532;&#47196;&#51229;&#53944;&#51032; &#49548;&#49828;&#47484; &#45796;&#50868;&#48155;&#51004;&#47140;&#47732; &#45796;&#51020; git command&#47484; &#51060;&#50857;&#54616;&#47732;&#46108;&#45796;:</p>
+<pre class="programlisting">git clone https://github.com/spring-projects/spring-security.git</pre>
+<p>&#51060; &#47749;&#47161;&#50612;&#44032; &#45817;&#49888;&#51032; &#47196;&#52972; &#47672;&#49888;&#51060; &#54532;&#47196;&#51229;&#53944; &#51204;&#52404; &#55176;&#49828;&#53664;&#47532;(&#47784;&#46304; &#48176;&#54252; &#48260;&#51204;&#44284; &#48652;&#47004;&#52824;&#47484; &#54252;&#54632;&#54620;)&#50640; &#51217;&#44540;&#54624; &#49688; &#51080;&#44172; &#54644;&#51456;&#45796;.</p>
+</div>
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="getting-started.html">Prev</a>&nbsp;</td><td width="20%" align="center"><a accesskey="u" href="getting-started.html">Up</a></td><td width="40%" align="right">&nbsp;<a accesskey="n" href="new.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Part&nbsp;II.&nbsp;&#49884;&#51089;&#54616;&#44592;&nbsp;</td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">&nbsp;2.&nbsp;Spring Security 4.0&#51032; &#49352;&#47196;&#50868; &#51216;</td></tr></table></div></body></html>

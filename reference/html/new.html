@@ -1,0 +1,56 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <title>2.&nbsp;Spring Security 4.0&#51032; &#49352;&#47196;&#50868; &#51216;</title><link rel="stylesheet" type="text/css" href="css/manual-multipage.css"><meta name="generator" content="DocBook XSL Stylesheets V1.78.1"><link rel="home" href="index.html" title="Spring Security &#47112;&#54140;&#47088;&#49828;"><link rel="up" href="getting-started.html" title="Part&nbsp;II.&nbsp;&#49884;&#51089;&#54616;&#44592;"><link rel="prev" href="introduction.html" title="1.&nbsp;&#46020;&#51077;"><link rel="next" href="jc.html" title="3.&nbsp;&#51088;&#48148; &#49444;&#51221;(Java Configuration)"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">2.&nbsp;Spring Security 4.0&#51032; &#49352;&#47196;&#50868; &#51216;</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="introduction.html">Prev</a>&nbsp;</td><th width="60%" align="center">Part&nbsp;II.&nbsp;&#49884;&#51089;&#54616;&#44592;</th><td width="20%" align="right">&nbsp;<a accesskey="n" href="jc.html">Next</a></td></tr></table><hr></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a name="new" href="#new"></a>2.&nbsp;Spring Security 4.0&#51032; &#49352;&#47196;&#50868; &#51216;</h2></div></div></div>
+
+<p>There are <a class="ulink" href="http://goo.gl/ui9GCl" target="_top">175+ tickets resolved</a> with the Spring Security 4.0 release.</p>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="new-features" href="#new-features"></a>2.1&nbsp;&#53945;&#51669;</h2></div></div></div>
+
+<p>Below are the highlights of the new features found in Spring Security 4.0.</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+<a class="link" href="websocket.html" title="20.&nbsp;WebSocket Security">Web Socket Support</a>
+</li><li class="listitem">
+<a class="link" href="test.html" title="Part&nbsp;IV.&nbsp;Testing">Test Support</a>
+</li><li class="listitem">
+<a class="link" href="data.html" title="Part&nbsp;VIII.&nbsp;Spring Data Integration">Spring Data Integration</a>
+</li><li class="listitem">
+<a class="link" href="mvc.html#mvc-csrf-resolver" title="34.4.2&nbsp;Resolving the CsrfToken">CSRF Token Argument Resolver</a>
+</li><li class="listitem">
+More Secure Defaults
+</li><li class="listitem">
+<p class="simpara">Methods with role in them do not require ROLE_
+For example, previously the following would be required within XML configuration:</p>
+<pre class="programlisting"><span class="hl-tag">&lt;intercept-url</span> <span class="hl-attribute">pattern</span>=<span class="hl-value">"/**"</span> <span class="hl-attribute">access</span>=<span class="hl-value">"hasRole('ROLE_USER')"</span><span class="hl-tag">/&gt;</span></pre>
+<p class="simpara">Now you can optionally omit the ROLE_ prefix.
+We do this to remove duplication.
+Specifically, since the expression hasRole already defines the value as a role it automatically adds the prefix if it is not there.
+For example, the following is the same as the previous configuration:</p>
+<pre class="programlisting"><span class="hl-tag">&lt;intercept-url</span> <span class="hl-attribute">pattern</span>=<span class="hl-value">"/**"</span> <span class="hl-attribute">access</span>=<span class="hl-value">"hasRole('USER')"</span><span class="hl-tag">/&gt;</span></pre>
+<p class="simpara">Similarly, the following configuration:</p>
+<pre class="programlisting">@PreAuthorize(<span class="hl-string">"hasRole('ROLE_USER')"</span>)</pre>
+<p class="simpara">is the same as this more concise configuration:</p>
+<pre class="programlisting">@PreAuthorize(<span class="hl-string">"hasRole('USER')"</span>)</pre>
+</li><li class="listitem">
+Many Integration Tests Added to Samples
+</li><li class="listitem">
+<a class="ulink" href="https://jira.spring.io/browse/SEC-2790" target="_top">Deprecate @EnableWebMvcSecurity</a> - by updating the minimum Spring Version, we can now allow defaulting MVC integration with <code class="literal">@EnableWebSecurity</code> but still allow it to be overridden
+</li></ul></div>
+</div>
+<div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="m3to4" href="#m3to4"></a>2.2&nbsp;Migrating from 3.x to 4.x</h2></div></div></div>
+
+<p>As exploits against applications evolve, so must Spring Security.
+As a major release version, the Spring Security team took the opportunity to make some non-passive changes which focus on:</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+Ensuring Spring Security is more <a class="ulink" href="https://www.owasp.org/index.php/Establish_secure_defaults" target="_top">secure by default</a>
+</li><li class="listitem">
+Minimizing <a class="ulink" href="https://www.owasp.org/index.php/Information_Leakage" target="_top">Information Leakage</a>
+</li><li class="listitem">
+Removing deprecated APIs
+</li></ul></div>
+<p>For complete details on migrating from Spring Security 3 to Spring Security 4 refer to one of the guides below:</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+<a class="ulink" href="http://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html" target="_top">Migrating from Spring Security 3.x to 4.x (XML Configuration)</a>
+</li><li class="listitem">
+<a class="ulink" href="http://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-jc.html" target="_top">Migrating from Spring Security 3.x to 4.x (Java Configuration)</a>
+</li></ul></div>
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="introduction.html">Prev</a>&nbsp;</td><td width="20%" align="center"><a accesskey="u" href="getting-started.html">Up</a></td><td width="40%" align="right">&nbsp;<a accesskey="n" href="jc.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">1.&nbsp;&#46020;&#51077;&nbsp;</td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">&nbsp;3.&nbsp;&#51088;&#48148; &#49444;&#51221;(Java Configuration)</td></tr></table></div></body></html>
